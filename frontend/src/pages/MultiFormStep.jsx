@@ -17,17 +17,16 @@ const MultiStepForm = () => {
     email: "",
     phone: "",
     department: "",
-
-    projects: [],
+    projects: [],  // Array for multiple projects
     role: "",
-    file: "",
+    file: null,    // Initialize file as null (not an empty string)
     university: "",
     semester: "",
     domain: "",
     internshipPeriod: "",
     selectedProject: "",
   });
-
+  
   const { postForm } = formStore();
 
 
