@@ -2,7 +2,8 @@ import { create } from "zustand";
 import toast from "react-hot-toast";
 
 export const formStore = create((set, get) => ({
-    backendUrl: "https://internship-portal-backend-seven.vercel.app",
+    backendUrl: "http://localhost:5000",
+    // backendUrl: "https://internship-portal-backend-seven.vercel.app",
     Data: {},
   
     postForm : async (formData) => {
