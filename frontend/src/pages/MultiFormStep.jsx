@@ -16,7 +16,6 @@ const MultiStepForm = () => {
     lastName: "",
     email: "",
     phone: "",
-    semester: "",
     department: "",
 
     projects: [],
