@@ -23,7 +23,6 @@ const MultiStepForm = () => {
     role: "",
     file: "",
     university: "",
-    department: "",
     semester: "",
     domain: "",
     internshipPeriod: "",
